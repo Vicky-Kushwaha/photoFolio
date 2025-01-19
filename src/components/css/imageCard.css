@@ -1,0 +1,63 @@
+#image-card {
+  width: 28rem;
+  padding: 0.4rem;
+  padding-bottom: 0.8rem;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 0.2s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+#image-card:hover {
+  cursor: pointer;
+}
+
+#image-card .photo {
+  background-color: rgb(176, 176, 241);
+  width: 100%;
+  height: 7rem;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: cover;
+}
+
+#image-card div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#image-card div p {
+  font-size: 1rem;
+  font-weight: 900;
+  padding-top: 5px;
+}
+
+#image-card .action .icon {
+  width: 30px;
+  margin: 0 0.4rem;
+  background-color: rgb(235, 222, 222);
+  border-radius: 50%;
+  padding: 4px 1px;
+  box-sizing: content-box;
+}
+
+#image-card .action .delete {
+  color: red;
+}
+
+#image-card .action .edit {
+  color: rgb(34, 34, 247);
+}
+
+#image-card .action {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  opacity: 0;
+  transform: translateX(4rem);
+  transition: all 0.5s;
+}
+
+#image-card:hover .action {
+  opacity: 1;
+  transform: translateX(0);
+}

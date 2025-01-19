@@ -1,0 +1,76 @@
+#imagePage #heading-btn-container {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#imagePage .backIcon-container {
+  position: absolute;
+  left: -80px;
+  top: -6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+#imagePage .backIcon-container:hover {
+  cursor: pointer;
+}
+
+#imagePage #back-icon {
+  width: 30px;
+}
+
+#imagePage #heading-btn-container .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagePage .search-container input {
+  width: 18rem;
+  height: 2.4rem;
+  padding: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+#imagePage .search-container #search-icon {
+  width: 32px;
+  margin-left: 0.4rem;
+}
+
+#imagePage .search-container #search-icon:hover {
+  cursor: pointer;
+}
+
+#imagePage #heading-btn-container button {
+  border: 2px solid rgb(119, 119, 247);
+  padding: 8px 15px;
+  margin-left: 1.4rem;
+  border-radius: 5px;
+  color: rgb(119, 119, 247);
+  font-size: 1rem;
+  background-color: rgb(234, 239, 243);
+}
+
+#imagePage #heading-btn-container .cancel {
+  color: rgb(226, 90, 90);
+  background-color: rgb(245, 200, 200);
+  border: 2px solid rgb(226, 90, 90);
+}
+
+#imagePage #heading-btn-container button:hover {
+  cursor: pointer;
+}
+
+#imagePage #image-list {
+  width: 72%;
+  margin: 1.5rem auto;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}

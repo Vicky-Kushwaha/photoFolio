@@ -1,0 +1,33 @@
+#album-page #heading-btn-container {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#album-page #heading-btn-container button {
+  border: 2px solid rgb(119, 119, 247);
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: rgb(119, 119, 247);
+  font-size: 1rem;
+  background-color: rgb(234, 239, 243);
+}
+
+#album-page #heading-btn-container .cancel {
+  color: rgb(226, 90, 90);
+  background-color: rgb(245, 200, 200);
+  border: 2px solid rgb(226, 90, 90);
+}
+
+#album-page #heading-btn-container button:hover {
+  cursor: pointer;
+}
+
+#album-page #album-list {
+  width: 72%;
+  margin: 1.5rem auto;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
